@@ -4,7 +4,7 @@ option = {"R": "Rock", "P": "Paper", "S": "Scissors"}
 key = list(option.keys())   # converts the keys in the dictionary into a list
 
 
-def user_choice():  # gets user's choice
+def user_choice():  # funtion to get user's choice
     while True:
         print("Choose:\n'R' for Rock,\n'P' for Paper or\n'S' for Scissors")
         user = input("Rock Paper Scissors? ").upper()
